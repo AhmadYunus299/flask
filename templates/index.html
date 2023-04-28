@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CV Yunus</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href={{ url_for('static', filename='/style.css')}}>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+            <img src={{ url_for('static', filename='/poto.png')}} alt="Ahmad Yunus">
+            <h1>Ahmad Yunus</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!-- <li><a href="#contact">Contact</a></li> -->
+          </ul>
+        </nav>
+        </div>
+        
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="container">
+          <h2>About</h2>
+          <p>Undergraduate Technical Information Student. Menyukai dunia elektronika dan hardware komputer, memahami basic pemrograman arduino, elektronika dasar dan sekarang sedang memahami dalam bidang AI</p>
+        <hr>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="container">
+          <h2>Experience</h2>
+			<ul>
+				<h4>PT. PLN Persero ULP Kopo</h4>
+						<p>
+							Melakukan troubleshooting komputer, melakukan input data konsumen,
+							instalasi listrik.
+						</p>
+
+					<h4>PT. Stechoq Robitika</h4>
+						<p>
+							Mempelajari elektronika dasar mulai dari layout, PCB, Kicad, PSIM
+							dan implementasi alat di IOT
+						</p>
+
+					<h4>Orbit Future Academy</h4>
+						<p>
+							Pelatihan AI secara daring untuk mahasiswa yang bertujuan bertujuan bukan hanya memperkenalkan dan memperdalam teknologi AI,
+							untuk mahasiswa yang bertujuan bukan hanya memperkenalkan dan memperdalam teknologi AI.
+							<br>
+							Mempelajari : Python (Programming Language) · Reinforcement Learning · Artificial Intelligence (AI) · Machine Learning · Deep Learning · Computer Vision · Natural Language Processing (NLP) · Data Science
+						</p>
+			</ul>
+            <hr>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="container">
+            <h2>Project</h2>
+            <ul>
+                <h4>Absensi RFID with Door Lock</h4>
+                    <p>
+                        Konfigurasi rangkaian hardware microcontroller.
+                    </p>
+                
+                <h4>Voucher WiFi MikroTik</h4>
+                    <p>
+                        Konfigurasi MikroTik dan membuat kode voucher.
+                    </p>
+            </ul>
+            <hr>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Ahmad Yunus 2023</p>
+      </div>
+    </footer>
